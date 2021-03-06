@@ -23,7 +23,5 @@ export function mdContentToHTML(content: MdContent): Promise<string> {
   switch (content) {
     case "me":
       return mdFileToHTML("content/me.md");
-    case "education":
-      return mdFileToHTML("content/education.md");
   }
 }

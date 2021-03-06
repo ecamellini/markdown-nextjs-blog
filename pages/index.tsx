@@ -2,7 +2,6 @@ import { GetStaticProps } from "next";
 import { mdContentToHTML } from "../lib/mdContent";
 import Page from "../components/layout/Page";
 import Article from "../components/Article";
-import Link from "next/link";
 
 type Props = {
   meContent: string;
