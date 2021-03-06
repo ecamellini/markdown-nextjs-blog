@@ -1,6 +1,6 @@
 # Markdown Next.js Blog
 
-Static blog powered by Markdown files, ready to be deployed on [Vercel](https://vercel.com/).
+Static blog powered by Markdown files, ready to be deployed on [Vercel](https://vercel.com/) - [see how it looks](https://markdown-nextjs-blog.vercel.app/).
 Based on [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Features
