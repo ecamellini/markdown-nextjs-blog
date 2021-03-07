@@ -5,9 +5,9 @@ Based on [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.c
 
 ## Features
 
-- Comes by default with homepage, blog page, and navigation
-- Homepage text based on `content/me.md` Markdown
-- Easily add a blog post by simply adding a Markdown file in `content/posts`
+- Comes by default with homepage, blog, and navigation
+- Homepage text comes from the `content/me.md` Markdown file
+- Quickly add a blog post by adding a Markdown file in `content/posts/`
 - Seamless dark mode based on the user's operating system setting
 
 ## Setup, deploy, and blog post preview
@@ -18,5 +18,4 @@ Based on [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.c
 2. Push it on your GH account
 3. Add the Vercel integration to your repo, following [this guide](https://vercel.com/guides/deploying-nextjs-with-vercel)
 
-Once you have Vercel configured, it will deploy you website on each commit on the `main` branch.
-It will also create a dedicated preview deploy for each pull request, meaning that you can use pull requests to create a new blog post and see how it looks.
+Once you have Vercel configured, it will deploy your website on each commit on the `main` branch. It will also create a dedicated preview deployment for each pull request, meaning that you can use pull requests to add a new blog post and see how it looks.
