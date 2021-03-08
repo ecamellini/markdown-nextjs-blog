@@ -19,3 +19,7 @@ Based on [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.c
 3. Add the Vercel integration to your repo, following [this guide](https://vercel.com/guides/deploying-nextjs-with-vercel)
 
 Once you have Vercel configured, it will deploy your website on each commit on the `main` branch. It will also create a dedicated preview deployment for each pull request, meaning that you can use pull requests to add a new blog post and see how it looks.
+
+---
+
+Initially developed by [@ecaml](https://twitter.com/e_caml) to build his [personal website](https://ecamel.me).
