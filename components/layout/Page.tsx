@@ -17,7 +17,7 @@ export default function Page(props: Props) {
         <title>{title}</title>
       </Head>
       <NavBar activePage={activePage} />
-      <div className="px-4 py-8 lg:py-32 lg:px-0 max-w-screen-sm mx-auto">
+      <div className="px-4 py-8 lg:py-14 lg:px-0 max-w-screen-sm mx-auto">
         {children}
       </div>
     </>

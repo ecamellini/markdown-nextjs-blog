@@ -17,11 +17,11 @@ export default function NavBarItem(props: Props) {
           ${
             active &&
             `
-            text-blue-500
+            text-indigo-600
             dark:text-yellow-500
             border-b-2
             border-solid
-            border-blue-500
+            border-indigo-600
             dark:border-yellow-500
             `
           }

@@ -11,13 +11,7 @@ module.exports = {
         black: colors.black,
         white: colors.white,
         gray: colors.coolGray,
-        red: colors.red,
         yellow: colors.amber,
-        blue: colors.blue,
-        green: colors.emerald,
-        orange: colors.orange,
-        fuchsia: colors.fuchsia,
-        purple: colors.violet,
         indigo: colors.indigo,
       },
       typography: (theme) => ({
@@ -25,11 +19,11 @@ module.exports = {
           css: {
             a: {
               textDecoration: "none",
-              borderBottom: "2px solid black",
-              borderColor: theme("colors.blue.500"),
+              borderBottom: "2px solid",
+              borderColor: theme("colors.indigo.600"),
               paddingBottom: "1px",
               "&:hover": {
-                borderColor: theme("colors.blue.300"),
+                borderColor: theme("colors.indigo.400"),
               },
             },
             p: {
@@ -47,6 +41,7 @@ module.exports = {
             h3: {
               fontSize: "1.1em",
               fontWeight: "700",
+              borderTopWidth: 2,
             },
           },
         },
@@ -56,7 +51,7 @@ module.exports = {
             a: {
               textDecoration: "none",
               color: theme("colors.gray.200"),
-              borderBottom: "2px solid black",
+              borderBottom: "2px solid",
               borderColor: theme("colors.yellow.500"),
               paddingBottom: "1px",
               "&:hover": {
@@ -80,6 +75,9 @@ module.exports = {
             },
             h6: {
               color: theme("colors.gray.300"),
+            },
+            hr: {
+              borderColor: theme("colors.gray.700"),
             },
             strong: {
               color: theme("colors.gray.100"),

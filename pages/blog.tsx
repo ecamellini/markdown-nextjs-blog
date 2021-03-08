@@ -5,6 +5,7 @@ import { PostsListElementData } from "../model/model";
 import Link from "next/link";
 import PostDate from "../components/PostDate";
 import Article from "../components/Article";
+import { ProfilePic } from "../components/ProfilePic";
 
 type Props = {
   posts: PostsListElementData[];
@@ -22,8 +23,10 @@ export default function Blog(props: Props) {
   const { posts } = props;
   return (
     <Page title="Rick's blog" activePage="blog">
+      <ProfilePic />
       <Article>
-        <h1>Rick's Blog</h1>
+        <h1 className="mx-auto text-center">Rick's Blog</h1>
+        <hr />
       </Article>
       {posts.map((post) => {
         const { title, date, id } = post;
