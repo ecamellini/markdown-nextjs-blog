@@ -23,4 +23,4 @@ Once you have Vercel configured, it will deploy your website on each commit on t
 
 ---
 
-Initially developed by [@ecaml](https://twitter.com/e_caml) to build his [personal website](https://ecamel.me).
+Initially developed by [@e_caml](https://twitter.com/e_caml) to build his [personal website](https://ecamel.me).
