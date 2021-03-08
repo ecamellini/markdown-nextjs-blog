@@ -9,6 +9,7 @@ Based on [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.c
 - Homepage text comes from the `content/me.md` Markdown file
 - Quickly add a blog post by adding a Markdown file in `content/posts/`
 - Seamless dark mode based on the user's operating system setting
+- Automatic RSS feed generation
 
 ## Setup, deploy, and blog post preview
 
